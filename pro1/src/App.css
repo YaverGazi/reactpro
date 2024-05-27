@@ -1,0 +1,59 @@
+nav{
+    z-index:10001
+}
+
+.gradiantbg{
+    background: linear-gradient(99deg,#EE9AE5 0%,#5961F8 100%);
+}
+
+.slick-prev{
+    background-color: blueviolet;
+}
+ .slick-next{
+    background-color: blueviolet;
+ }
+
+ html {
+    scroll-behavior: smooth;
+  }
+  .solution-section {
+    scroll-margin-top: 80px; /* Ekranın en üstünden başlayarak section'a kaydırma yapar */
+  }
+
+  .zindex{
+    z-index:10001
+}
+
+
+
+
+@media (max-width: 640px) {
+    .margin {
+     margin-top: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .margin {
+   margin-top: 200px;
+    }
+}
+
+
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-up {
+    animation: fadeInUp 0.5s ease;
+}
+
